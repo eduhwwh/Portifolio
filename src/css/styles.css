@@ -272,7 +272,27 @@ section.projeto {
 
 .projeto .projeto-box p {
     text-align: justify;
+    line-height: 1.6;
+    font-size: 16px;
 }
+
+.projeto-box a {
+    display: inline-block;
+    text-align: justify;
+    margin-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.6;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.projeto-box a:hover {
+    color: #c801ff;
+    transform: translateY(-2px);
+    text-decoration: underline;
+}
+
 
 
 /* formulario */
@@ -354,4 +374,8 @@ form .btn-enviar input {
     cursor: pointer;
     margin: 0 5px;
     transition: .2s;
+}
+
+.footer-content i{
+    color: #ffffff;
 }
