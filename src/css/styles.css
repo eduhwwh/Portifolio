@@ -29,7 +29,8 @@ h2.titulo span {
     color: #781194;
 }
 
- button:hover, form .btn-enviar input {
+button:hover,
+form .btn-enviar input {
     box-shadow: 0px 0px 8px #c801ff;
     transform: scale(1.05);
 }
@@ -44,7 +45,7 @@ header {
     height: auto;
 }
 
-header > .interface {
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -107,10 +108,11 @@ section.topo-site .flex {
     font-size: 50px;
 }
 
-.topo-site p{
-    
+.topo-site p {
+
     text-align: justify;
 }
+
 .topo-site .txt-topo-site {
     color: #fff;
     margin: 70px 0;
@@ -125,6 +127,7 @@ section.topo-site .flex {
     0% {
         top: 0;
     }
+
     100% {
         top: 30px;
     }
@@ -137,12 +140,12 @@ section.especialidades {
 }
 
 
-section.especialidades .flex{
+section.especialidades .flex {
     gap: 90px;
-   
+
 }
 
-.especialidades .especilidades-box{
+.especialidades .especilidades-box {
     color: #f7f3f3;
     padding: 40px;
     border-radius: 20px;
@@ -150,22 +153,82 @@ section.especialidades .flex{
     transition: .2s;
 }
 
-.especialidades .especilidades-box:hover{
+.especialidades .especilidades-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px #dfdfdf;
 }
 
-.especialidades .especilidades-box i{
+.especialidades .especilidades-box i {
     font-size: 70px;
     color: #c801ff;
-    
+
 }
 
-.especialidades .especilidades-box h3{
+.especialidades .especilidades-box h3 {
     font-size: 28px;
     margin: 15px 0;
 }
 
-.especialidades .especilidades-box p{
+.especialidades .especilidades-box p {
     text-align: justify;
+}
+
+
+/* sobre */
+.img-sobre img {
+    padding: 40px 4%;
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    border-radius: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+section.sobre {
+    padding: 80px 4%;
+
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre {
+    flex: 1;
+    padding-right: 20px;
+    color: #fff;
+
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+
+}
+
+.sobre .txt-sobre span {
+    color: #781194;
+    display: block;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+
+.sobre .txt-sobre .btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #781194;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+
 }
