@@ -232,3 +232,43 @@ section.sobre .flex {
     transition: .2s;
 
 }
+
+
+
+/* PROJETOS */
+
+section.projeto{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+section.projeto{
+    gap: 40px;
+}
+
+.projeto .projeto-box{
+    color: #f7f3f3;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.projeto .projeto-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #dfdfdf;
+}
+
+.projeto .projeto-box i{
+    font-size: 70px;
+    color: #c801ff;
+    
+}
+
+.projeto .projeto-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+.projeto .projeto-box p{
+    text-align: justify;
+}
